@@ -1,0 +1,94 @@
+{
+  "site_title": "Pia Høyer Væveri",
+  "email": "Piahoeyer@gmail.com",
+  "instagram": "https://www.instagram.com/sansefuldepauser",
+  "facebook": "https://www.facebook.com/share/1963K4myGa/?mibextid=wwXIfr",
+  "contact_heading": "Har et værk fanget din interesse?",
+  "contact_text": "Skriv til mig for at høre mere om værket og dets tilgængelighed.",
+  "works": [
+    {
+      "title": "Skagen",
+      "subtitle": "Earth",
+      "slug": "skagen",
+      "order": 1,
+      "description": "Et vævet værk med rolige lag, jordnære nuancer og en blød bevægelse i frynserne.",
+      "image": "/media/skagen.webp",
+      "gallery": [
+        "/media/skagen-detail-1.webp",
+        "/media/skagen-detail-2.webp"
+      ]
+    },
+    {
+      "title": "Vintermark",
+      "subtitle": "Air",
+      "slug": "vintermark",
+      "order": 2,
+      "description": "Et lyst og taktilt værk, hvor trådene får lov at stå åbne, levende og næsten vægtløse.",
+      "image": "/media/vintermark.webp",
+      "gallery": [
+        "/media/vintermark-detail-1.webp",
+        "/media/vintermark-detail-2.webp"
+      ]
+    },
+    {
+      "title": "ENG",
+      "subtitle": "Air",
+      "slug": "eng",
+      "order": 3,
+      "description": "Et intuitivt værk i afdæmpede toner, bygget op af små skift i tekstur og rytme.",
+      "image": "/media/eng.webp",
+      "gallery": [
+        "/media/eng-detail-1.webp",
+        "/media/eng-detail-2.webp"
+      ]
+    },
+    {
+      "title": "Vinter monochrome",
+      "subtitle": "",
+      "slug": "vinter-monochrome",
+      "order": 4,
+      "description": "Et monochromt studie i kontraster, tæthed og de ujævne spor, som opstår undervejs.",
+      "image": "/media/vinter-monochrome.webp",
+      "gallery": [
+        "/media/vinter-monochrome-detail-1.webp",
+        "/media/vinter-monochrome-detail-2.webp"
+      ]
+    },
+    {
+      "title": "Under water",
+      "subtitle": "Water",
+      "slug": "under-water",
+      "order": 5,
+      "description": "Blå og grå lag mødes i et værk inspireret af dybde, strømninger og bevægelse under overfladen.",
+      "image": "/media/under-water.webp",
+      "gallery": [
+        "/media/under-water-detail-1.webp",
+        "/media/under-water-detail-2.webp"
+      ]
+    },
+    {
+      "title": "Lysende natskyer",
+      "subtitle": "Water",
+      "slug": "lysende-natskyer",
+      "order": 6,
+      "description": "Et let og åbent værk, hvor løse tråde og kølige nuancer skaber en fornemmelse af lys i bevægelse.",
+      "image": "/media/lysende-natskyer.webp",
+      "gallery": [
+        "/media/lysende-natskyer-detail-1.webp",
+        "/media/lysende-natskyer-detail-2.webp"
+      ]
+    },
+    {
+      "title": "Sicily",
+      "subtitle": "Fire",
+      "slug": "sicily",
+      "order": 7,
+      "description": "Varme gyldne toner og rå teksturer samles i et lille værk med spor af sol, sten og varme.",
+      "image": "/media/sicily.webp",
+      "gallery": [
+        "/media/sicily-detail-1.webp",
+        "/media/sicily-detail-2.webp"
+      ]
+    }
+  ]
+}
