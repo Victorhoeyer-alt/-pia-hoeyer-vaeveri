@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: Victorhoeyer-alt/-pia-hoeyer-vaeveri
+  branch: main
+
+media_folder: "media"
+public_folder: "/media"
+
+collections:
+  - name: "website"
+    label: "Hjemmesiden"
+    files:
+      - name: "site"
+        label: "Indhold og værker"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "Hjemmesidens navn", name: "site_title", widget: "string" }
+          - { label: "E-mail", name: "email", widget: "string" }
+          - { label: "Instagram-link", name: "instagram", widget: "string" }
+          - { label: "Facebook-link", name: "facebook", widget: "string" }
+          - { label: "Kontaktoverskrift", name: "contact_heading", widget: "string" }
+          - { label: "Kontakttekst", name: "contact_text", widget: "text" }
+          - label: "Værker"
+            name: "works"
+            widget: "list"
+            summary: "{{fields.order}} – {{fields.title}}"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Element / undertitel", name: "subtitle", widget: "string", required: false }
+              - { label: "URL-navn", name: "slug", widget: "string", hint: "Små bogstaver uden mellemrum, fx under-water" }
+              - { label: "Rækkefølge", name: "order", widget: "number", value_type: "int", min: 1 }
+              - { label: "Hovedbillede", name: "image", widget: "image" }
+              - label: "Detaljebilleder"
+                name: "gallery"
+                widget: "list"
+                required: false
+                field: { label: "Billede", name: "image", widget: "image" }
+              - { label: "Kort beskrivelse", name: "description", widget: "text", required: false }
